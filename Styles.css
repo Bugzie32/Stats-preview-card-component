@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+/* font-family: "Inter", sans-serif;
+	font-family: "Lexend Deca", sans-serif; */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #090b1a;
+	color: white;
+	font-family: "Inter", sans-serif;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content {
+	background-color: #1b1938;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 37px;
+}
+
+.text-box {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 70px 0 70px;
+}
+
+span {
+	color: #aa5cdb;
+}
+
+.main-text {
+	max-width: 400px;
+	padding-bottom: 30px;
+}
+
+.sub-text {
+	max-width: 400px;
+	padding-bottom: 50px;
+	line-height: 1.7em;
+}
+
+.num {
+	min-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	line-height: 2em;
+}
+
+.first p {
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+.second p {
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+.third p {
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+
+.content img {
+	border-radius: 0 10px 10px 0;
+	height: 100%;
+	background-size: cover;
+	background: rgba(170, 92, 219, 0.502);
+}
