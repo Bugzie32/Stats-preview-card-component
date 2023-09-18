@@ -26,10 +26,15 @@ body {
 
 main {
 	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 448px;
 }
 
 .text-box {
 	background-color: hsl(244, 38%, 16%);
+	height: 100%;
 }
 
 span {
