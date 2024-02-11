@@ -8,78 +8,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-html {
-	font-size: 62.5%;
+	font-family: "Inter", sans-serif;
 }
 
 body {
-	background-color: #090b1a;
-	color: white;
-	font-family: "Inter", sans-serif;
+	font-size: 62.5%;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 2em;
-}
-
-main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 448px;
-	max-width: 1080px;
-}
-
-.text-box {
-	background-color: hsl(244, 38%, 16%);
-	height: 100%;
-	padding: 6.5em;
-	padding-right: 10em;
-	border-radius: 0.8em 0 0 0.8em;
-}
-
-img {
-	border-radius: 0 0.8em 0.8em 0;
-}
-
-/* Image color needs to be corrected. */
-tech-img {
-	height: 100%;
-	width: 100%;
-	background-color: hsl(277, 64%, 61%);
-	opacity: 0.5;
-}
-
-h1 {
-	font-size: 3.5rem;
-	padding-bottom: 0.9em;
-}
-
-.discover {
-	line-height: 1.7em;
-}
-
-span {
-	color: hsl(277, 64%, 61%);
-}
-p {
-	font-size: 1.5em;
-	color: hsla(0, 0%, 100%, 0.6);
-}
-
-.num-amount {
-	display: flex;
-	justify-content: space-between;
-	padding-top: 9.2em;
-}
-
-h3 {
-	font-size: 2.3rem;
-	padding-bottom: 0.3em;
-}
-
-.ctq {
-	font-size: 1.3rem;
+	background-color: #090b1a;
+	color: white;
 }
