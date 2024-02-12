@@ -20,3 +20,36 @@ body {
 	background-color: #090b1a;
 	color: white;
 }
+
+main {
+	display: flex;
+	align-items: center;
+}
+
+.text_box {
+	height: 446px;
+	background-color: hsl(244, 38%, 16%);
+	max-width: 540px;
+	padding: 7em;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 0.8em;
+}
+
+span {
+	color: hsl(277, 64%, 61%);
+}
+
+.discover {
+	font-size: 1rem;
+	color: hsla(0, 0%, 100%, 0.75);
+	line-height: 1.6em;
+}
+
+/* Continue the remaining */
+
+.num-amount {
+	display: flex;
+}
