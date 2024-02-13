@@ -24,13 +24,16 @@ body {
 main {
 	display: flex;
 	align-items: center;
+	max-width: 90%;
 }
 
 .text_box {
 	height: 446px;
 	background-color: hsl(244, 38%, 16%);
 	max-width: 540px;
-	padding: 7em;
+	padding: 6em 13em 6em 6em;
+	display: flex;
+	flex-direction: column;
 }
 
 h1 {
@@ -43,13 +46,32 @@ span {
 }
 
 .discover {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	color: hsla(0, 0%, 100%, 0.75);
 	line-height: 1.6em;
 }
 
 /* Continue the remaining */
 
+.top_text {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
 .num-amount {
 	display: flex;
+	justify-content: space-between;
 }
+
+.num_stats h3 {
+	font-size: 1.2rem;
+	margin-bottom: 0.3em;
+}
+
+.ctq {
+	color: hsla(0, 0%, 100%, 0.6);
+	letter-spacing: 0.15em;
+}
+
+/* Media Q start */
