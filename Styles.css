@@ -5,13 +5,13 @@
 	font-family: "Lexend Deca", sans-serif; */
 
 * {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	font-family: "Inter", sans-serif;
 }
 
 body {
+	font-family: "Inter", sans-serif;
 	font-size: 62.5%;
 	min-height: 100vh;
 	display: flex;
@@ -34,6 +34,7 @@ main {
 	padding: 6em 13em 6em 6em;
 	display: flex;
 	flex-direction: column;
+	border-radius: 0.7em;
 }
 
 h1 {
@@ -72,6 +73,12 @@ span {
 .ctq {
 	color: hsla(0, 0%, 100%, 0.6);
 	letter-spacing: 0.15em;
+}
+
+.tech-img {
+	height: 446px;
+	width: 100%;
+	background-image: url(images/image-header-desktop.jpg);
 }
 
 /* Media Q start */
